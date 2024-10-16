@@ -1,0 +1,6 @@
+{
+    "Patient": true,
+    "Staff": true,
+    "Hospital": true,
+    "Schedule": true
+}
