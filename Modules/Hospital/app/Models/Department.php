@@ -13,7 +13,12 @@ class Department extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
+    protected $fillable = ['name'];
+
+    public function rooms()
+    {
+        return $this->hasMany(Room::class);
+    }
 
     // protected static function newFactory(): DepartmentFactory
     // {
