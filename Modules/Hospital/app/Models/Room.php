@@ -17,7 +17,7 @@ class Room extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = ['number','type','size','status'];
+    protected $fillable = ['number','type','size','status','departmrnt_id'];
 
     protected function casts(): array
     {
